@@ -587,13 +587,6 @@ document.addEventListener('keydown', function(e) {
   histCopyBtn.onclick = () => { if (lastCopied) copyText(lastCopied); };
   let historialVisible = false;
 
-function addHistorial(txt) {
-  lastCopied = txt;
-  histText.textContent = txt;
-
-  if (historialVisible) {
-    histContent.style.display = "block";
-    histArrow.style.transform = "rotate(180deg)";
   }
 }
 
