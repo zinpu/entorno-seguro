@@ -106,13 +106,14 @@ button:hover {
   cursor: pointer;
   font-size: 13px;
   font-weight: 600;
-  transition: all 0.25s ease;
+  transition: all 0.25s ease, transform 0.1s ease;
 }
 .slider-btn.selected {
   background: #111;       /* Negro */
   color: #C93C20;         /* Rojo oscuro (tu color institucional) */
   font-weight: bold;
   box-shadow: 0 2px 6px rgba(201,60,32,0.4); /* leve glow rojo */
+  transform: scale(0.9);
 }
 #modo-slider {
   display: flex;
