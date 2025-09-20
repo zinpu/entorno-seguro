@@ -590,11 +590,11 @@ function animateButton(button){
   button.style.transform = "scale(0.92)";
   button.style.transition = "transform 0.15s ease";
   setTimeout(()=> button.style.transform = "", 150);
-function copiarYAnimar(event, texto){
+}
+    function copiarYAnimar(event, texto){
   copyText(texto);
   animateButton(event?.target); // reutiliza la animación que ya agregaste
-}
-}
+      }
   </script>
 </body>
 </html>
